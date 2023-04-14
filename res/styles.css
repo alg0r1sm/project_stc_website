@@ -1,15 +1,27 @@
 body, html {
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
     scroll-behavior: smooth;
     scroll-snap-type: mandatory;
     scroll-snap-points-y: repeat(98vh);
     scroll-snap-type: y mandatory;
 }
 
+#nav-bar {
+    align-items: center;
+    border-bottom: 5px solid black;
+    display: flex;
+    justify-content: center;
+    height: 15vh;
+    position: sticky;
+    top: 0;
+    width: 98vw;
+}
+
 .panels {
     display: flex;
     flex-direction: column;
-    height: 98vh;
-    padding: 1vh 5vw 1vh 5vw;
+    height: 83vh;
+    padding: 15vh 5vw 1vh 5vw;
     scroll-snap-align: center;
     width: 88vw;
 }
