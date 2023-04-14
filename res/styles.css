@@ -1,0 +1,20 @@
+body, html {
+    scroll-behavior: smooth;
+    scroll-snap-type: mandatory;
+    scroll-snap-points-y: repeat(98vh);
+    scroll-snap-type: y mandatory;
+}
+
+.panels {
+    display: flex;
+    flex-direction: column;
+    height: 98vh;
+    padding: 1vh 5vw 1vh 5vw;
+    scroll-snap-align: center;
+    width: 88vw;
+}
+
+#top-panel {
+    align-items: center;
+    justify-content: center;
+}
