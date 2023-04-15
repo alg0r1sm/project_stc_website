@@ -66,3 +66,18 @@ body, html {
     grid-row-end: 4;
     padding: 10vh 10vw 10vh 10vw;
 }
+
+#panel-1 {
+    align-items: center;
+}
+
+.panel-1-sections-groups {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+}
+
+.panel-1-sections {
+    padding: 6vh 6vw 6vh 6vw;
+}
