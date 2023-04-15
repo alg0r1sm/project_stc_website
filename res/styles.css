@@ -36,6 +36,33 @@ body, html {
 }
 
 #top-panel {
-    align-items: center;
-    justify-content: center;
+    display: grid;
+}
+
+#top-panel-title {
+    align-self: center;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    padding: 10vh 10vw 10vh 10vw;
+    text-align: center;
+}
+
+#top-panel-text-1 {
+    align-self: center;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    padding: 10vh 10vw 10vh 10vw;
+}
+
+#top-panel-text-2 {
+    align-self: center;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    padding: 10vh 10vw 10vh 10vw;
 }
