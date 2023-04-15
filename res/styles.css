@@ -7,13 +7,23 @@ body, html {
 
 #nav-bar {
     align-items: center;
-    border-bottom: 5px solid black;
-    display: flex;
-    justify-content: center;
+    border-bottom: 2px solid black;
+    display: grid;
     height: 15vh;
     position: sticky;
     top: 0;
     width: 98vw;
+}
+
+#nav-bar-right {
+    justify-self: right;
+}
+
+.nav-bar-link {
+    color: black;
+    display: inline;
+    margin: 0 1vw 0 1vw;
+    text-decoration: none;
 }
 
 .panels {
