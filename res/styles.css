@@ -5,6 +5,11 @@ body, html {
     scroll-snap-type: y mandatory;
 }
 
+img {
+    display: inline;
+    width: 100px;
+}
+
 #nav-bar {
     align-items: center;
     border-bottom: 2px solid black;
@@ -36,6 +41,7 @@ body, html {
 }
 
 #top-panel {
+    background-image: url(/res/img/tp-1.webp);
     display: grid;
 }
 
